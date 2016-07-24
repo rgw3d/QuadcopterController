@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zerokol.views.test" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="7" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for com.zerokol.views.test"
+        android:targetPackage="com.zerokol.views.test" />
+
+    <application android:label="JoystickView" >
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+</manifest>

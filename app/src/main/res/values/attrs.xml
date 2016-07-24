@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TriButtonStates">
+        <!-- Use one for every state you want to have  -->
+        <attr name="low" format="boolean" />
+        <attr name="mid" format="boolean" />
+        <attr name="high" format="boolean" />
+    </declare-styleable>
+</resources>
